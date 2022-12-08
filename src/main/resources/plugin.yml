@@ -1,0 +1,30 @@
+name: Lobby
+version: '${project.version}'
+main: de.lbc.lobby.Main
+api-version: 1.19
+authors: [ LBC__ ]
+
+commands:
+  spawn:
+    description: Teleportiere dich zum Spawn.
+    aliases: [hub]
+  setspawn:
+    description: Setzt den Lobbyspawn.
+    permission: lobby.setspawn
+  300622:
+  navigator:
+    description: Bearbeite den Navigator.
+    permission: lobby.editnav
+    aliases:
+      - nav
+      - editnav
+      - navedit
+      - navigatoredit
+      - editnavigator
+  maptp:
+    description: Teleportiere dich auf eine andere Map.
+    permission: lobby.maptp
+  villager:
+    permission: lobby.villager
+  holo:
+    permission: lobby.holo
